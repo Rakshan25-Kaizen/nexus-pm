@@ -1,0 +1,40 @@
+{
+  "project": {"id": "project-1", "name": "NEXUS Demo Project"},
+  "members": [
+    {"id": "member-1", "name": "Alice", "role": "Backend Engineer", "skills": ["Python", "FastAPI", "PostgreSQL", "ML"]},
+    {"id": "member-2", "name": "Bob", "role": "Frontend Engineer", "skills": ["React", "TypeScript", "UI/UX", "Tailwind"]},
+    {"id": "member-3", "name": "Priya", "role": "Full Stack Engineer", "skills": ["Python", "React", "DevOps", "Testing"]},
+    {"id": "member-4", "name": "Raj", "role": "QA Engineer", "skills": ["Testing", "Selenium", "Pytest", "Documentation"]}
+  ],
+  "tasks": [
+    {"id": "task-1", "title": "Build REST API endpoints", "category": "Backend", "complexity": "high", "assigned_to": "Alice", "status": "done", "due_date": "2025-02-07", "completed_at": "2025-02-07", "delay_days": 0, "blocker_type": "", "reason": "", "insight": "Clean implementation with good test coverage"},
+    {"id": "task-2", "title": "Setup database schema", "category": "Backend", "complexity": "medium", "assigned_to": "Alice", "status": "done", "due_date": "2025-02-10", "completed_at": "2025-02-10", "delay_days": 0, "blocker_type": "", "reason": "", "insight": "Used async patterns effectively"},
+    {"id": "task-3", "title": "Design landing page", "category": "Frontend", "complexity": "medium", "assigned_to": "Bob", "status": "done", "due_date": "2025-02-12", "completed_at": "2025-02-14", "delay_days": 2, "blocker_type": "overload", "reason": "Alice had 3 concurrent tasks", "insight": "Need to limit concurrent assignments"},
+    {"id": "task-4", "title": "Implement auth flow", "category": "Backend", "complexity": "high", "assigned_to": "Alice", "status": "done", "due_date": "2025-02-20", "completed_at": "2025-02-20", "delay_days": 0, "blocker_type": "", "reason": "", "insight": "Solid OAuth2 implementation"},
+    {"id": "task-5", "title": "Create dashboard components", "category": "Frontend", "complexity": "medium", "assigned_to": "Bob", "status": "done", "due_date": "2025-02-22", "completed_at": "2025-02-22", "delay_days": 0, "blocker_type": "", "reason": "", "insight": "Good component architecture"},
+    {"id": "task-6", "title": "Backend data processing", "category": "Backend", "complexity": "high", "assigned_to": "Bob", "status": "done", "due_date": "2025-02-25", "completed_at": "2025-02-28", "delay_days": 3, "blocker_type": "skill_mismatch", "reason": "Bob is frontend-focused, struggled with backend patterns", "insight": "Assign backend tasks to backend engineers"},
+    {"id": "task-7", "title": "API integration tests", "category": "Testing", "complexity": "medium", "assigned_to": "Alice", "status": "done", "due_date": "2025-02-26", "completed_at": "2025-02-28", "delay_days": 2, "blocker_type": "overload", "reason": "Alice already had 3 active tasks", "insight": "Monitor workload before assigning"},
+    {"id": "task-8", "title": "CI/CD pipeline setup", "category": "DevOps", "complexity": "medium", "assigned_to": "Priya", "status": "done", "due_date": "2025-03-05", "completed_at": "2025-03-05", "delay_days": 0, "blocker_type": "", "reason": "", "insight": "Efficient DevOps setup"},
+    {"id": "task-9", "title": "User acceptance testing", "category": "Testing", "complexity": "low", "assigned_to": "Raj", "status": "done", "due_date": "2025-03-07", "completed_at": "2025-03-07", "delay_days": 0, "blocker_type": "", "reason": "", "insight": "Thorough test documentation"},
+    {"id": "task-10", "title": "Performance optimization", "category": "Backend", "complexity": "high", "assigned_to": "Priya", "status": "done", "due_date": "2025-03-10", "completed_at": "2025-03-10", "delay_days": 0, "blocker_type": "", "reason": "", "insight": "Good profiling approach"},
+    {"id": "task-11", "title": "Mobile responsive design", "category": "Frontend", "complexity": "medium", "assigned_to": "Bob", "status": "done", "due_date": "2025-03-12", "completed_at": "2025-03-12", "delay_days": 0, "blocker_type": "", "reason": "", "insight": "Clean responsive implementation"},
+    {"id": "task-12", "title": "Test automation framework", "category": "Testing", "complexity": "high", "assigned_to": "Raj", "status": "done", "due_date": "2025-03-14", "completed_at": "2025-03-15", "delay_days": 1, "blocker_type": "unclear_requirements", "reason": "Requirements changed mid-sprint", "insight": "Lock requirements before sprint starts"}
+  ],
+  "strategy_adaptations": [
+    {
+      "sprint": 2,
+      "trigger_pattern": "overload_pattern",
+      "failure_rate": 0.50,
+      "old_weights": {"completion_rate": 0.35, "delay_history": 0.25, "recent_velocity": 0.20, "current_load": 0.20},
+      "new_weights": {"completion_rate": 0.30, "delay_history": 0.20, "recent_velocity": 0.15, "current_load": 0.35},
+      "description": "Alice had 3 tasks in Sprint 2. Overload detected."
+    }
+  ],
+  "sprints": [
+    {"sprint_number": 1, "name": "Sprint 1 - Foundation", "start_date": "2025-02-01", "end_date": "2025-02-14", "goal": "Set up core backend", "status": "completed"},
+    {"sprint_number": 2, "name": "Sprint 2 - Integration", "start_date": "2025-02-15", "end_date": "2025-02-28", "goal": "Connect all services", "status": "completed"}
+  ],
+  "nudges": [
+    {"nudge_type": "overload_warning", "message": "Alice has 3 active tasks. Last time this happened her delivery slipped 2 days.", "target_member": "Alice", "severity": "warning"}
+  ]
+}

@@ -1,0 +1,40 @@
+models:
+  default: qwen-qwen3-32b
+
+prompts:
+  task_assignment:
+    max_tokens: 1024
+    temperature: 0.3
+    json_mode: true
+  meeting_summary:
+    max_tokens: 2048
+    temperature: 0.2
+    json_mode: true
+  chat:
+    max_tokens: 1024
+    temperature: 0.4
+    json_mode: false
+  risk_explanation:
+    max_tokens: 256
+    temperature: 0.3
+    json_mode: false
+  agent_nudge:
+    max_tokens: 150
+    temperature: 0.6
+    json_mode: false
+  sprint_plan:
+    max_tokens: 2048
+    temperature: 0.3
+    json_mode: true
+  member_onboard:
+    max_tokens: 512
+    temperature: 0.4
+    json_mode: true
+  before_after:
+    max_tokens: 300
+    temperature: 0.3
+    json_mode: false
+  greeting:
+    max_tokens: 150
+    temperature: 0.5
+    json_mode: false

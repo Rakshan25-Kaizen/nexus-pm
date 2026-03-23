@@ -1,0 +1,8 @@
+{
+  "name": "nexus-pm",
+  "private": true,
+  "scripts": {
+    "hindsight:setup": "python -m scripts.setup_hindsight",
+    "hindsight:test": "python -m scripts.test_hindsight"
+  }
+}
