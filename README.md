@@ -7,7 +7,7 @@ NEXUS-PM is an **Adaptive AI Project Manager** that transcends traditional sched
 
 ---
 
-## 🧠 Cognitive Architecture: The ACTS Pipeline
+##  Cognitive Architecture: The ACTS Pipeline
 
 NEXUS-PM operates on the **ACTS (Assessment, Correlation, Thought, Synthesis)** pipeline, ensuring every decision is backed by historical performance and predictive models.
 
@@ -19,7 +19,7 @@ NEXUS-PM operates on the **ACTS (Assessment, Correlation, Thought, Synthesis)** 
 
 ---
 
-## 🛠️ Unified ML Intelligence Suite
+##  Unified ML Intelligence Suite
 
 NEXUS-PM doesn't just guess; it calculates. Our multi-model engine runs on parallel tracks:
 
@@ -32,7 +32,7 @@ NEXUS-PM doesn't just guess; it calculates. Our multi-model engine runs on paral
 
 ---
 
-## 🚀 Proactive Intelligence & SSE
+##  Proactive Intelligence & SSE
 
 Stay ahead of bottlenecks with **Build 18-35: Proactive Nudge**. NEXUS-PM monitors your project in the background and pushes real-time alerts via **Server-Sent Events (SSE)**.
 
@@ -45,7 +45,7 @@ Stay ahead of bottlenecks with **Build 18-35: Proactive Nudge**. NEXUS-PM monito
 
 ---
 
-## ⚡ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -57,7 +57,7 @@ Stay ahead of bottlenecks with **Build 18-35: Proactive Nudge**. NEXUS-PM monito
 
 ---
 
-## 🏁 Quick Start
+##  Quick Start
 
 ### 1. Environment Configuration
 Clone the repository and configure your intelligence keys:
